@@ -2,10 +2,11 @@ Database First
 
 Table:  used_cars
 
-id                          
-mark
-model
-year_of_registration
-total_km_done
-price
+id                          BIGINT(255)         AUTO_INCREMENT  PRIMARY KEY
+mark                        CHAR(255)           NOT_NULL
+model                       CHAR(255)           NOT_NULL
+year_of_registration        MEDIUMINT(255)      NOT_NULL
+total_km_done               INT(255)            NULL             
+price                       FLOAT(6,2)          NULL
+description                 TEXT(255)           NULL
 
