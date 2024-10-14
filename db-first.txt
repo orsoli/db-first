@@ -1,2 +1,11 @@
 Database First
 
+Table:  used_cars
+
+id                          
+mark
+model
+year_of_registration
+total_km_done
+price
+
